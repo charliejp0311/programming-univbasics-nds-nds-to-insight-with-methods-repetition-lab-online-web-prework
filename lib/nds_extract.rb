@@ -49,7 +49,7 @@ def total_gross(source)
   d_hash = directors_totals(source)
   cntr = 0
   tot_all_dir_sales = 0
-  pp d_hash
+  pp d_hash[directors[0]]
   while cntr < directors.length do 
     #pp d_hash
     cntr += 1 
