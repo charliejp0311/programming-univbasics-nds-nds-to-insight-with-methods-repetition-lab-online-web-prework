@@ -47,7 +47,8 @@ def total_gross(source)
   # return the total
   directors = list_of_directors(source)
   d_hash = directors_totals
-  cntr = 0 
+  cntr = 0
+  tot_all_dir_sales = 0 
   while cntr < directors.length do 
     
     cntr += 1 
