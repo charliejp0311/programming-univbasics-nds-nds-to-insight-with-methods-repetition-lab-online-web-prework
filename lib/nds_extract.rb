@@ -50,9 +50,10 @@ def total_gross(source)
   cntr = 0
   tot_all_dir_sales = 0 
   while cntr < directors.length do 
-    
+    tot_all_dir_sales += d_hash[directors[cntr]]
     cntr += 1 
   end 
+  tot_all_dir_sales
 end
 
 
