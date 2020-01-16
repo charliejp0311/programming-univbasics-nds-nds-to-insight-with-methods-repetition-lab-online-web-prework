@@ -54,7 +54,6 @@ def total_gross(source)
     tot_all_dir_sales += d_hash[directors[cntr]]
     cntr += 1 
   end 
-  pp tot_all_dir_sales
 end
 
 
