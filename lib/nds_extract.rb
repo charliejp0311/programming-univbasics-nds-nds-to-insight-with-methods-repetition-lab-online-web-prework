@@ -46,7 +46,7 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
   directors = list_of_directors(source)
-  d_hash = directors_totals
+  d_hash = directors_totals(source)
   cntr = 0
   tot_all_dir_sales = 0
   ppdirectors.length
