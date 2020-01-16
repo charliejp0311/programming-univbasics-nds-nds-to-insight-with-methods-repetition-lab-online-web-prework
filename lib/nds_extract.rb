@@ -48,9 +48,10 @@ def total_gross(source)
   directors = list_of_directors(source)
   d_hash = directors_totals
   cntr = 0
-  tot_all_dir_sales = 0 
+  tot_all_dir_sales = 0
+  ppdirectors.length
   while cntr < directors.length do 
-    pp d_hash
+    #pp d_hash
     cntr += 1 
   end 
   pp tot_all_dir_sales
